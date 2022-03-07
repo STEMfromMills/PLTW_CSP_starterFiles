@@ -3,7 +3,7 @@
 #   If using a macOS device, change im to open "macOutput.gif"
 from PIL import Image 
 
-im = Image.open("output.gif")
+im = Image.open("macOutput.gif")
 rgb_im = im.convert('RGB')
 
 MAX_CHARACTERS = 20
